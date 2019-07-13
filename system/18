@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# 18. Find the command that kills ssh service
+
+# 18. Nayti komandu. kotoraya ubivayet sluzhbu SSH
+
+sudo service ssh stop
+
+
+#### Variant 2-8
+# sudo service sshd stop
+# sudo systemctl stop ssh.service
+# sudo systemctl stop sshd.service
+# sudo systemctl stop ssh
+# sudo systemctl stop sshd
+# sudo /etc/init.d/ssh stop
+# sudo pkill sshd

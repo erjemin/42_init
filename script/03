@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 03. Three’s a Charm. Write a script of you choice.
+
+# 03. Tretye zadaniye -- eto mi-mi-mi... Napishite stsenariy na vash vybor.
+
+echo "============== UPDATE AND UPGRADE $(date)" > /var/log/update-sys-$(date +%Y-%m-%d).log
+echo "============== BEGIN $(date +%H:%M:%S)" >> /var/log/update-sys-$(date +%Y-%m-%d).log
+sudo apt-get -y update >> /var/log/update-sys-$(date +%Y-%m-%d).log
+sudo apt-get -y upgrade >> /var/log/update-sys-$(date +%Y-%m-%d).log
+echo "" >> /var/log/update-sys-$(date +%Y-%m-%d).log
+echo "============== FIN   $(date +%H:%M:%S)" >> /var/log/update-sys-$(date +%Y-%m-%d).log
+echo "";
+echo " _._     _,-'\"\"\`-._";
+echo "(,-.\`._,'(       |\\\`-/|";
+echo "    \`-.-' \\ )-\`( , o o)";
+echo "          \`-    \\\`_\`\"'-  Mi-mi-mi... Ok!";
+echo "";
+

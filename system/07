@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# 07. Figure out the PID of the SSHD service.
+
+# 07. Vyyasnite PID sluzhby SSHD.
+
+cat /var/run/sshd.pid
+
+#### Variant 2-8
+# pidof sshd
+# pidof sshd -s -c
+# pidof sshd | cut -d' ' -f1
+# pgrep sshd
+# pgrep -u root sshd
+# sudo service ssh status | grep PID | cut -d ' ' -f 4
+# sudo service ssh status | grep 'Main PID' | awk -F '[ ]' '{print $4}'

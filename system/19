@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# 19. List all services which are started at boot time and name this kind
+# of services
+
+
+# 19. Perechislite vse servisy, kotoryye zapuskayutsya vo vremya zagruzki,
+# i nazovite etot vid servisov.
+
+systemctl status --type service --all
+
+#### variants 1, 2
+# systemctl list-units --type service --all
+# systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+

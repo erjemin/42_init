@@ -1,0 +1,10 @@
+# 23. Explain how connect yourself as new user. (With graphic session
+# and ssh session)
+
+# 23. Obyasnite. kak podklyuchit sebya kak novogo polzovatelya.
+# (S graficheskoy sessiyey i sessiyey SSH)
+
+su -l $1
+
+ssh user@host
+

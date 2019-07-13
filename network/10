@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# 10. Identify the network devices between your computer and the slash16.org domain
+
+# 10. Opredelite setevye ustrojstva mezhdu vashim komp'yuterom i domenom slash16.org
+
+traceroute slash16.org

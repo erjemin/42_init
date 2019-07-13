@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# 14. Run the ‘tail -f /var/log/syslog‘ command in background
+
+# 14. Zapustite komandu "tail -f /var/log/syslog" v fonovom rezhime
+
+sudo tail -f /var/log/syslog &

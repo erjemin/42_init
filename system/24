@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 24. Find the command that list all packages
+
+# 24. Naydite komandu. kotoraya perechislyayet vse pakety
+
+dpkg --list
+
+#### Variant 2
+# sudo apt list --installed
+

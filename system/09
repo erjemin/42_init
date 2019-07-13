@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 09. What command lets you know who is connected to the System?
+
+# 09. Kakaya komanda pozvolyayet uznat. kto podklyuchen k Sisteme?
+
+w
+
+#### Variant 2 & 3
+# w -h
+# who

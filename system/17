@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# 17. Find the command that allows you to connect via ssh on the VM.
+# (In parallel with the graphic session)
+
+# 17. Naydite komandu. kotoraya pozvolyayet podklyuchatsya cherez ssh
+# na virtualnoy mashine. (Parallelno s graficheskim seansom)
+
+ssh [-flags] user@host

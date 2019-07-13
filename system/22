@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# 22. Find the command that add a new local user
+
+# 22. Naydite komandu. kotoraya dobavlyayet novogo lokalnogo polzovatelya
+
+sudo adduser $1
+

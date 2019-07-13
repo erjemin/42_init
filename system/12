@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 12. Figure out the exact size of each folder of /var in a humanly
+# understandable way followed by the path of it.
+
+# 12. Vyyasnite tochnyy razmer kazhdoy papki /var v ponyatnoy dlya
+# cheloveka forme. sleduya po puti k ney.
+
+sudo du -h -s /var/*
+
+#### Variant 2, 3 & 4
+# sudo du -h -d 1 /var
+# sudo du -h --summarize /var/*
+# # sudo du -h /var/

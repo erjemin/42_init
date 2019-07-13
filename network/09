@@ -1,0 +1,9 @@
+# 09. Find the external IP of 42.fr
+
+# 09. Najti vneshnij IP 42.fr
+
+# host 42.fr 8.8.8.8 | grep 'has address' | awk '{print $4}'
+
+163.172.250.11
+163.172.250.13
+163.172.250.12

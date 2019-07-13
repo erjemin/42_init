@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# 04. Identifiy the default gateway in the routing table
+
+# 04. Opredelite shlyuz po umolchaniyu v tablice marshrutizacii
+
+route get default | grep "gateway" | cut -d ":" -f2 | tr -d " "
+
+# netstat -nr | grep default | head -1 | awk '{print $2}'
+
+# for Debian/Ubuntu
+# route | grep default | awk '{print $2}'
+# netstat -r | grep default | awk '{print $2}'

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# 11. Name the command that displays the available space left and used on
+# the system in an humanly understandable way
+
+
+# 11. Nazovite komandu. kotoraya otobrazhayet dostupnoye ostavsheyesya 
+# prostranstvo i ispolzuyetsya v sisteme ponyatnym dlya cheloveka
+# sposobom
+
+df -h
+
+#### Variant 2-6
+# df -hl
+# df -h --total
+# df -H
+# df -Hl
+# df -Hl --total

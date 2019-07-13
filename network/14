@@ -1,0 +1,6 @@
+# 14. What file contains the local DNS entries?
+
+# 14. Kakoj fajl soderzhit lokal'nye zapisi DNS?
+
+/etc/hosts
+

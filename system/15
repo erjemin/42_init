@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 15. Find the command that kills the background command’s process
+
+# 15. Naydite komandu. kotoraya ubivayet protsess fonovoy komandy
+
+pkill tail
+
+#### Variant 2 & 3
+# kill -n tail
+# kill -n $PID

@@ -1,0 +1,10 @@
+# 08. What file contains the RSA keys of systems that are authorized
+# to connect via SSH?
+
+# 08. Kakoy fayl soderzhit klyuchi RSA sistem, kotorym razresheno
+# podklyuchatsya cherez SSH?
+
+~/.ssh/authorized_keys
+
+####
+# $HOME/.ssh/authorized_keys

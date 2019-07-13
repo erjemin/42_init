@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 02. Write a script which delete an ACTIVE user on the VM
+
+# 02. Napishite skript, kotoryy udalit AKTIVNOGO polzovatelya na VM
+
+USER=$1
+sudo pkill -u $USER
+sudo userdel --remove-all-files $USER
+
+# variant 2
+# USER=$1
+# pgrep -u $USER | while read PID; do sudo kill $PID; done
+# sudo userdel $USER

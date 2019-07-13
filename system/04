@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 04. What command gives you the time since your system was last booted?
+
+# 04. Kakaya komanda dayet vam vremya s momenta posledney zagruzki vashey sistemy?
+
+uptime --since
+
+
+#### Variant 2 -- bolee tochnii, no dlia mashin bez tchasov real'nogo vremeni daet 01.01.1975
+# who -b

@@ -1,0 +1,13 @@
+# 03. What file has to be modified to make it permanent?
+
+# 03. Kakoy fayl nuzhno izmenit. chtoby pereimenovat sistemu
+# (sdelat imya postoyannym)?
+
+/etc/hostname
+
+####
+# sudo nano /etc/hostname
+
+####
+# Takzje nuzhno izmenit inia v /etc/hosts (dlia zeti)
+# sudo nano /etc/hosts

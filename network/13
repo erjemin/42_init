@@ -1,0 +1,6 @@
+# 13. Thanks to the previous question and the reverse DNS find the name of your host
+
+# 13. Blagodarya predydushchemu voprosu i obratnomu DNS najdite imya vashego hosta
+
+# make command
+# for OUT in $(ifconfig en0 | grep "inet " | awk '{print $2}'); do nslookup $OUT | grep name | awk '{print $4}'; done

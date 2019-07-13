@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# 05. Identify the IP address of the DNS that responds to the following url: slash16.org
+
+# 05. Opredelite IP-adrsa DNS, kotoryj otvechaet na sleduyushchij URL: slash16.org
+
+host slash16.org | grep 'has address' | awk '{print $4}'
+
+#### Version 2
+# nslookup slash16.org | grep Address: | awk '{print $2}'
+
+#### Version 3
+# nslookup slash16.org | grep "Server:" | awk '{print $2}'
+# nslookup slash16.org | grep "Server:" | cut -d ":" -f2 | tr -d "\t"
+
+#### Version 4 
+# ping slash16.org -c1 | grep 'bytes from' |  awk '{print $4}' | awk -F ':' '{print $1}'
+# ping slash16.org -c1 | grep "PING" |  awk '{print $3}' | awk -F '[()]' '{print $2}'
+

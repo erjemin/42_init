@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# 21. List all real users on the VM
+
+# 21. Spisok vsekh realnykh polzovateley na virtualnoy mashine
+
+cat /etc/passwd | grep '/home/' | cut -f1 -d:
+
+#### variants 1-4
+# cat /etc/passwd | grep '/home/' | awk -F':' '{print $1}'
+# getent passwd | grep home | cut -d: -f1
+# getent passwd | grep home | awk -F: '{print $ 1}'
+# ls /home
+

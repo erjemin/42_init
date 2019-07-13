@@ -1,0 +1,11 @@
+# 11. Use the output of the previous command to find the name and IP address of the
+# device that makes the link between you (local network) and the outside world
+
+# 11. Ispol'zujte vyhodnye dannye predydushchej komandy, chtoby najti imya
+# i IP-adres ustrojstva, kotoroe ustanavlivaet svyaz' mezhdu vami (lokal'noj 
+# et'yu) i vneshnim mirom.
+
+
+# traceroute slash16.org | grep ' 1 ' | awk '{print $2 "\t" $3}'
+
+192.168.20.1	(192.168.20.1)

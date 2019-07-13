@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# 05. Name the command that determines the state of the SSH service.
+
+# 05. Nazovite komandu. kotoraya opredelyayet sostoyaniye sluzhby SSH
+
+service ssh status
+
+
+#### Variant 2-7
+
+# sudo service sshd status
+# systemctl status ssh.service
+# systemctl status sshd.service
+# systemctl status ssh
+# systemctl status sshd
+# /etc/init.d/ssh status

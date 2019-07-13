@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 12. Find the IP that was assigned to you by dhcp server
+
+# 12. Najdite IP-adres, naznachennyj vam serverom DHCP
+
+ifconfig en0 | grep 'inet ' | awk '{print $2}'
+
+#### Variants for Mac only
+# ipconfig getpacket en0 | grep server_identifier | sed 's/[^0-9]*//'
+# ipconfig getpacket en0 | grep domain_name_server | cut -d ' ' -f 3

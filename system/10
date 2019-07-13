@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# 10. Name the command that lists the partition tables of drives?
+
+# 10. Nazovite komandu. kotoraya perechislyayet tablitsy razdelov diskov?
+
+lsblk
+
+#### Variant 2
+# sudo fdisk -l

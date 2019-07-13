@@ -1,0 +1,10 @@
+# 01. In what file can you find the installed version of your Debian?
+
+# 01. V kakom fayle vy mozhete nayti ustanovlennuyu versiyu vashego Debian?
+
+/etc/debian_version
+
+# cat /etc/debian_version
+
+#### Polnoie nazvanie sistemi for Debian & Ubuntu
+# cat /etc/issue

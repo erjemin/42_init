@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# 03. Identify the MAC address of the Wi-Fi card
+
+# 03. Opredelite MAC-adres karty Wi-Fi
+
+ifconfig en1 | grep ether | awk '{print $2}'
+
+### variants 2-4
+# ifconfig en1 | grep ether | cut -d " " -f2
+# networksetup -getmacaddress en1 | cut -c 19-35
+# networksetup -getmacaddress en1 | cut -d ' ' -f3

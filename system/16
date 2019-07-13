@@ -1,0 +1,11 @@
+# 16. Find the service which makes it possible to run specific tasks
+# following a regular schedule
+
+# 16. Naydite servis. kotoryy pozvolyayet zapuskat opredelennyye
+# zadachi po regulyarnomu raspisaniyu
+
+cron
+
+####
+# /etc/crone
+# crone.hourly

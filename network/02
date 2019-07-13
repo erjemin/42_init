@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# 02. Identify and display the Ethernet interface characteristics:
+#   (a) Identify broadcast address
+#   (b) Identify all IP adresses which are part of the same subnet
+
+# 02. Opredelit' i otobrazit' harakteristiki interfejsa Ethernet:
+#   (a) Opredelit' shirokoveshchatel'nyj adres
+#   (b) Opredelit' vse IP-adresa, kotorye yavlyayutsya chast'yu
+#       odnoj podseti
+
+# this (a)
+ifconfig en0 | grep 'broadcast ' | awk '{print $6}'
+
+#### variant 2(a)
+# ifconfig en0 | grep 'iinet ' | awk '{print $6}'
+# ifconfig getifaddr en0
+
+
+# this (b)
+arp -a | awk '{print $2}' | sed 's/(//' | sed 's/)//'

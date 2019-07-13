@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# 13. Name the command that find, in real time, currently running processes
+
+# 13. Nazovite komandu. kotoraya v realnom vremeni nakhodit tekushchiye protsessy
+
+ps -ejH
+
+#### Variant 2-5
+# ps -aux
+# ps
+# top
+# sudo apt-get install htop | htop

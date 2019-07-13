@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# 06. Name the command that reboots the SSH service.
+
+# 06. Nazovite komandu. kotoraya perezagruzhayet sluzhbu SSH.
+
+sudo service ssh restart
+
+#### Variant 2-7
+# sudo service sshd restart
+# sudo systemctl restart ssh.service
+# sudo systemctl restart sshd.service
+# sudo systemctl restart ssh
+# sudo systemctl restart sshd
+# sudo /etc/init.d/ssh restart
